@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment variables (PENTING: jangan sampai token Turso terunggah!)
+.env
+.env.local
+.env.*.local
+
+# Vercel & Logs
+.vercel
+*.log
+npm-debug.log*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# File Database Lokal (jika ada)
+data.db
+*.sqlite
